@@ -1,0 +1,24 @@
+{
+  "name": "actionpersonnalisee",
+  "version": "1.0.0",
+  "description": "TP_AAction Personnalisee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moustarhim29/ActionPersonnalisee.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/moustarhim29/ActionPersonnalisee/issues"
+  },
+  "homepage": "https://github.com/moustarhim29/ActionPersonnalisee#readme",
+  "dependencies": {
+    "@actions/core": "^3.0.0"
+  }
+}
