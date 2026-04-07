@@ -12,5 +12,17 @@ inputs:
     default: fr
 
 runs:
-  using: node16
-  main: index.js
+  using: composite
+  steps:
+    - name: Dire bonjour
+      shell: bash
+      run: |
+        NOM="${{ inputs.nom }}"
+        LANGUE="${{ inputs.langue }}"
+        if [ "$LANGUE" = "en" ]; then
+          echo "Hello, $NOM!"
+        elif [ "$LANGUE" = "es" ]; then
+          echo "Hola, $NOM!"
+        else
+          echo "Bonjour, $NOM !"
+        fi
