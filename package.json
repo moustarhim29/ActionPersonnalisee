@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/moustarhim29/ActionPersonnalisee#readme",
   "dependencies": {
-    "@actions/core": "^3.0.0"
+    "@actions/core": "^1.10.0"
   }
 }
